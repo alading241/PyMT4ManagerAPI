@@ -1,7 +1,7 @@
 # PyMT4ManagerAPI
 Python Interface based on MT4 Manager API.
 
-MT4 Manager API is a windows dll which can only used in c/c++ program. With the help of swigwin-3.0.12, I managed to wrap this dll with python. The difficult part is to make the callback function in python called in C/C++. I looked over the internet and came out the solution and Notify_FuncEx in test.py is called when new event comes.
+MT4 Manager API is a windows dll which can only be used directly in c/c++ program. With the help of swigwin-3.0.12, I managed to wrap this dll with python. The difficult part is to make the callback function in python called in C/C++. I looked over the internet and came out the solution and Notify_FuncEx in test.py is called when new event comes.
 
 Please copy _MT4ManagerAPI.pyd into C:\Python27\DLLs folder. I don't test it with Python3.
 
