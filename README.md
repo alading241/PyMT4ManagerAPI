@@ -1,4 +1,5 @@
 # PyMT4ManagerAPI
+# Please attach C++ swig source code
 Python Interface based on MT4 Manager API.
 
 MT4 Manager API is a windows dll which can only be used directly in c/c++ program. With the help of swigwin-3.0.12, I managed to wrap this dll with python. The difficult part is to make the callback function in python called in C/C++. I looked over the internet and came out the solution and Notify_FuncEx in test.py is called when new event comes.
